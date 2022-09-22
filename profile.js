@@ -1,16 +1,8 @@
-const favColor=black
+let favColor = document.querySelector("#color")
+favColor.addEventListener("click", () => alert("My favorite color is black!"))
 
-function myFavoriteColor(black) {
-    return(
-        myFavoriteColor=black
-        console.log(favColor)
-    )
-}
+let favPlace = document.querySelector("#place")
+favPlace.addEventListener("click", () => alert("My favorite place is Panama City Beach!"))
 
-
-
-
-
-addEventListener(myFavoriteColor,'Black')
-addEventListener(myFavoritePlace,'Panama City Beach')
-addEventListener(myFavoriteRitual,'something awesome')
+let favRitual = document.querySelector("#ritual")
+favRitual.addEventListener("click", () => alert("My favorite ritual is physical exercise!"))

@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Homepage</title>
-        <link href="styles.css" rel="stylesheet">
-    
-    </head>
 <head>
-    <title>Hompage</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Rob's profile</title>
+
 </head>
-    <img src="https://www.hollywoodreporter.com/wp-content/uploads/2022/05/Tom-Brady-Credit-Eric-Ray-Davidson-copy-H-2022.jpg?w=681&h=383&crop=1">
-    <p>(And yes this photo of Tom Brady is Me)</p>
 <body>
-    <H1>Rob Salmon</H1>
-    <br>
-    <h2>SKILLS</h2>
-    <li>Artist</li>
-    <li>Dancer</li>
-    <li>Yoga</li>
-    <li>Fitness</li>
-    <li>Fashion</li>
-    <li>Sewing</li>
-    <br>
-    <br>
-    <h2>Interests</h2>
-    <li>Becoming a Full Stack Developer/Software Engineer</li>
-    <li>Mixed Martial Arts</li>
-    <li>Spear Fishing</li>
-    <li>Kite Surfing</li>
-    <li>Sail Surfing</li>
-    <li>UFC</li>
-    <br>
-    <br>
-    <h2>Career Goals</h2>
-    <li>Become a Full Stack Developer</li>
-    <li>Become a Profitable Day Trader</li>
-    <li>Own and Build Airbnb/Vrbo Rentals</li>
-    <li>Own and Build a Wedding Venue</li>
-    <li>Licensed Home Construction Contractor</li>
-    <br>
-    <br>
-    <button id="color">My Favorite Color</button>
-<button id="place">My Favorite Place</button>
-<button id="ritual">My Favorite Ritual</button>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>	
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+    <section class="content">
+        <div>
+            <h1>Robert Salmon</h1>
+            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2022/05/Tom-Brady-Credit-Eric-Ray-Davidson-copy-H-2022.jpg?w=681&h=383&crop=1" alt="profile picture">
+        </div>
+        <div>
+            <h3>About me</h3>
+            <p>Hey! My name is Rob Salmon and I am from Alabama. I am a student at DevMountain to become a Software Engineer. I love staying active and learning new skills!</p>
+        </div>
+        <div id="Skills">
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Programming languages: HTML, CSS, Javascript</li>
+                    <li>Problem solving</li>
+                    <li>Adaptability</li>
+                </ul>  
+            </div>
+        </div>
+        <div id="hobbies">
+            <div class="hobbies-list">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Fashion</li>
+                    <li>Fitness</li>
+                    <li>Sewer</li>
+                    <li>Artist</li>
+                    <li>Yoga</li>
+                </ul>  
+            </div>
+            <divc class="hobbies-picture">
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="color" class="btn">My Favorite Color</button>
+            <button id="place" class="btn">My Favorite Place</button>
+            <button id="ritual" class="btn">My Favorite Ritual</button>
+        </div>
+
+    </section>
+    <a href="./home.html"> Back </a>
+
+    <script src="profile.js"></script>
     
 </body>
-</html> 
+</html>
 
 <br>
 <br>
-
-<a href="./home.html"><< Back </a>
